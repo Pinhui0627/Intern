@@ -1,0 +1,56 @@
+.navbar {
+    background-color: #FCEBDF;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #e6c9b5;
+    color: #fff !important;
+}
+
+.ContentSlide {
+    animation: slide-up 2s;
+}
+
+.PageTitle{
+    padding-bottom: 2rem;
+}
+
+#navbar-feel{
+    background-color: #fff6ef;
+    width: 100%;
+}
+.conNav{
+    width: 100%;
+}
+.conNav:hover{
+    background-color: #f0daca;
+}
+
+.contentNav{
+    color: #cec0b7;
+}
+
+.contentNav:hover{
+    color: #c6997d;
+    font-weight: 800;
+}
+
+h4{
+    color: #c6997d;
+}
+
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(250px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+#footer {
+    background: hsl(25, 83%, 93%);
+    padding: 0.5cm
+}

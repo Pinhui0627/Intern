@@ -1,0 +1,86 @@
+h1 {
+  font-family: 'Noto Serif TC', serif;
+}
+
+h2 {
+  font-family: 'Noto Serif TC', serif;
+}
+
+h3 {
+  font-family: 'Noto Serif TC', serif;
+}
+
+h4 {
+  font-family: 'Noto Serif TC', serif;
+}
+
+p {
+  font-size: 1rem;
+  /* 設定文字大小 */
+  line-height: 2rem;
+  /* 設定文字行距 */
+  letter-spacing: 3px;
+  /* 設定文字間距 */
+}
+
+body {
+  background-color: #F8F3EF;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.PageTitle {
+  font-size: 2rem;
+  color: #424242;
+  font-weight: 3px;
+  font-family: 'Noto Serif TC', serif;
+}
+
+/* navbar */
+#logo {
+  padding: 10px;
+}
+
+.icon-bar {
+  background: white;
+}
+
+.navbar {
+  font-family: 'Noto Serif TC', serif;
+}
+
+.navbar .navbar-nav .nav-link {
+  color: rgb(173, 155, 155) !important;
+  font-size: 1.1em;
+  padding: 1em 0.7em;
+  transition: all 0.5s;
+}
+
+.navbar .navbar-brand {
+  padding: 0 0.6em;
+}
+
+@media only screen and (min-width: 992px) {
+  .navbar {
+    padding: 0;
+  }
+
+  .navbar .navbar-nav .nav-link {
+    padding: 1em 0.7em;
+  }
+
+  .navbar .navbar-brand {
+    padding: 0 0.8em;
+  }
+}
+
+/* navbar end */
+
+.footerfab{
+  color:rgb(195, 182, 182)
+}
+.footerfab:hover{
+  color:rgb(136, 122, 122)
+}

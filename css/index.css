@@ -1,0 +1,92 @@
+.navbar {
+    background-color: #F1E6D8;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    background-color: #f1d1a6;
+    color: #fff !important;
+}
+
+
+.pagerow {
+    font-family: 'Noto Serif TC', serif;
+    color: #69615b;
+    padding: 30px 5% 0px 5%;
+}
+
+.page:hover {
+    color: rgb(203, 191, 191);
+    opacity: 0.8;
+}
+
+.page {
+    transition: all .4s linear;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 400px;
+}
+
+#pagetop {
+    width: 100%;
+    background-image: url(images/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+#pagetopimg {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    opacity: 0.8;
+}
+
+#person {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    font-size: 12vmin;
+    top: 75%;
+    left: 45%;
+    transform: translate(2%, -70%);
+    z-index: 1000;
+}
+
+#Work {
+    background-color: #E5EFE3;
+}
+
+#Learn {
+    background-color: #FDF6DE;
+}
+
+#Feel {
+    background-color: #FCEBDF;
+}
+
+#Advice {
+    background-color: #FFE5E1;
+}
+
+#Work:hover {
+    background-color: #dbefd7;
+}
+
+#Learn:hover {
+    background-color: #fff5d5;
+}
+
+#Feel:hover {
+    background-color: #ffe6d4;
+}
+
+#Advice:hover {
+    background-color: #ffddd8;
+}
+
+#footer {
+    background: hsl(41, 76%, 89%);
+    padding: 0.5cm
+}
