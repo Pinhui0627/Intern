@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Intersoft Internship</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/feel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+</head>
+<style>
+</style>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
+        <a class="navbar-brand" href="index.html"><img src="images\logo.png" class="img-fluid" width="250" height="80"
+                id="back"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div id="navbarSupportedContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-md-auto">
+                <li class="nav-item active mr-sm-2">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item dropdown mr-sm-2">
+                    <a href="Work.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                        aria-expanded="false">工作內容</a>
+                    <div class="dropdown-menu">
+                        <a class="nav-link dropdown-item Work" href="Work1.html">捐款系統</a>
+                        <a class="nav-link dropdown-item Work" href="Work2.html">個案系統</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown mr-sm-2">
+                    <a href="Learn.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                        aria-expanded="false">學習</a>
+                    <div class="dropdown-menu">
+                        <a class="nav-link dropdown-item Learn" href="Learn1.html">技術面</a>
+                        <a class="nav-link dropdown-item Learn" href="Learn2.html">非技術面</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown mr-sm-2">
+                    <a href="Feel.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
+                        aria-expanded="false">心得感想</a>
+                    <div class="dropdown-menu">
+                        <a class="nav-link dropdown-item Work" href="Assessment.html">自我評估</a>
+                        <a class="nav-link dropdown-item Work" href="Feel.html">心得感想</a>
+                    </div>
+                </li>
+                <li class="nav-item mr-sm-2">
+                    <a class="nav-link" href="Advice.html">對系上的建議</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <article>
+        <div class="container">
+            <div style="width:100%; padding-top: 2rem; padding-bottom: 2rem;">
+                <img src="images\IntroductionC.png" class="img-fluid"
+                    style="display:block;max-width:100%; margin:0 auto;">
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-lg-3 col-md-3" style="padding-bottom: 2rem;">
+                    <hr style="width: 90%; height: 2px; border: none; background-color: #353434">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            &nbsp; &nbsp;<font class="PageTitle">心得感想</font>
+                            <br />
+                        </div>
+                        <div class="col-sm-12">
+                            <nav id="navbar-feel" class="navbar">
+                                <nav class="nav nav-pills">
+                                    <div class="conNav"><a class="nav-link contentNav" href="#item-1">大三上</a></div>
+                                    <div class="conNav"><a class="nav-link contentNav" href="#item-2">暑期</a></div>
+                                    <div class="conNav"><a class="nav-link contentNav" href="#item-3">大三下</a></div>
+                                </nav>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-9 col-md-9">
+                    <div class="content" data-spy="scroll" data-target="#navbar-feel" data-offset="0"
+                        style="padding: 20px;">
+                        <h4 id="item-1" data-aos="fade-up"><b>大三上</b></h4>
+                        <p data-aos="fade-up">
+                            當初會選擇校外實習的主要原因就是希望能夠體驗實際在外面工作的感覺，畢竟在學校所學的東西是很有限的，上課所做的專題也都偏小，所以希望能夠透過實習，學習到如何與團隊共同開發。
+                        </p>
+                        <p data-aos="fade-up">
+                            第一天進到公司時，其實第一個感覺就是公司好小呀，不過大家都非常地忙碌，每個人都在忙自己的是，跟客戶講電話、開會、寫程式，沒有一個人是閒閒沒事坐在位置上聊天的，看到這樣的景象，我也開始真的有進入職場的感覺。
+                        </p>
+                        <p data-aos="fade-up">
+                            在教育訓練時，有上一些SQL還有網頁的課程，才發現以前所學的東西其實真的都偏淺居多，許多較深入的部分都不清楚，甚至是沒有讀過的，這也讓我了解到自己真的還有很多需要學習的地方，不論是有沒有學過的東西，都必須要重新再讀一次，讓自己能夠更熟悉這些資訊，並融會貫通，才能夠有效運用在工作上。
+                        </p>
+                        <p data-aos="fade-up">
+                            開始做訓練時的作業時，才真正開始有點上班的感覺，因為開始會遇到一些問題與考驗，要試著自己解決問題、熟悉公司產品，而這個階段也是很重要的一個階段，必須要能夠清楚了解需求，並實作出來。起初在做的時候問題比較多，因為還不太熟悉程式的運作，還有一些前端表現的方式，會需要主管的講解才有辦法理解，到後面開始越做越順，就有提前一些進度，先做下個作業的內容，也順利完成所有該做的作業。雖然做的過程有遇到不少問題，但透過這些問題也更讓我清楚知道，自己所會的東西真的太少了，才會需要花很多的時間在處理這些問題，不過也因為透過這個作業，學到了不少新的技巧還有語法。
+                        </p>
+                        <p data-aos="fade-up">
+                            在疫情又爆發後，這學期很多時間都是居家辦公，而在居家辦公時就很需要有自制力，有時會因為感覺事情不多，所以比較沒有像在公司一樣專注在工作上，會較容易分心，如果沒有好好安排時間，可能進度就會很緩慢，雖然在家輕鬆不少，不用花費通勤時間，不過也因為這樣，所以有更多時間可以好好利用，所以我認為在家工作的時間規劃比起在公司來說是更重要的，若是有將時間規劃，能完成的事一定會比實體上班來的多，而這正也是我在學習的部分。
+                        </p>
+                        <p data-aos="fade-up">
+                            真正進入職場才發現到，工作真的不是件容易的事，每天要面對的不僅是自己的工作項目，可能還有主管的壓力，或是需要直接與客戶溝通。不過很慶幸的是我們公司的主管人都很好，同事也都很和善，上班起來不太會有甚麼壓力，但看到同事都很認真的在工作，自己也就會給自己一些壓力，盡量能做得更快更好，也希望之後的半年我還是能夠保持像現在一樣的心態，認真工作，努力學習，期許自己能夠在這實習的一年中有所成長。
+                        </p>
+
+                        <br />
+                        <h4 id="item-2" data-aos="fade-up"><b>暑期</b></h4>
+                        <p data-aos="fade-up">
+                            在暑假這段期間，是一到五都要上班的，就像是一般的上班族一樣，這也是大學生活中的最後一個暑假，就這樣在實習中度過了，但我覺得很充實，比起每天在家做些無所謂的小事，每天實習工作是更好的選擇。<br />
+                            <p data-aos="fade-up">
+                                因為有獨立負責一個個案，且這個案子也不小，3月做到現在，從一開始的刻製表單、套印、示警、報表等等，一步一步地完成所有功能，在製作的過程中，需要不斷與客戶來回討論，更新、修改需求。有時客戶提出一個功能，但沒有明確的說明，我們就要自己去想像客戶大概是想要甚麼樣的風格，做好後給他們確認時，可能還是要再調整很多次才有辦法達到他們滿意的結果。
+                            </p>
+                            <p data-aos="fade-up">
+                                過去在做學校的專題時，共同合作的都是熟悉程式的人，所以在討論上比較不會有這麼多問題，現在面對的客戶們，普遍對於資訊都不太精通，而我們這些資訊人員在與他們溝通時，就像在做音樂一樣，客戶只給了幾個和弦，我們要利用這些和弦，編出一首完整的歌曲，雖然很有挑戰性，但做越多就會越上手，每次也都會有不同的靈感，一次比一次更進步一點。
+                            </p>
+                            <p data-aos="fade-up">
+                                現在雖然只是個實習生，但我覺得主管是信任我的，會問我有沒有甚麼想法，讓我有發揮的空間，我覺得這也是我在這段期間有所成長的主要原因。雖然不是在一間大公司，但就是因為是小公司，所以可以接觸到很多的部分，學習的東西也比較多面向，如果我都只是不斷的做同樣的小事，寫同樣一段code，進步的空間相較之下會小了許多。
+                            </p>
+
+                            <br />
+                            <h4 id="item-3" data-aos="fade-up"><b>大三下</b></h4>
+                            <p data-aos="fade-up">在這段期間，主管交代了許多case給我，有時可能會有2.3個case需要同時進行，雖然過程中感到非常的忙碌，但也從中學到許多，也成長了許多。
+                            </p>
+                            <p data-aos="fade-up">
+                                從3月到現在11月的期間，我一直都不斷地在做同個個案，期間也不斷地一直在增修調整，滿足客戶的需求。我覺得在做個案時，不僅僅是要寫好程式而已，更重要的是要了解客戶真正需要的是甚麼，並且要有高度的耐心，有時客戶可能會天馬行空的想像畫面呈現的方式，這時候就要回想自己曾經做過的東西，有沒有甚麼是可以運用上的，這也是實習最重要的一點。
+                            </p>
+                            <p data-aos="fade-up">
+                                回想起剛進公司的自己，對於許多函數都還不太了解，甚至沒有使用過，但是因為工作的關係，讓我學習到不少功能的做法，雖然有些功能沒有辦法直接寫出完整的程式碼，都還是需要參考才有辦法做出來，但至少現在的自己對於這些功能已經熟悉許多，也更清楚知道一個大專案的程式應該要如何撰寫效能才會更好。
+                            </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer>
+        <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js"
+            integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous">
+        </script>
+        <div id="footer">
+            <center>Copyright &copy; Cecilia Chang. All rights reserved.</center>
+            <p class="text-right">
+                <a href="https://www.instagram.com/" class="footerfab"><i class="fab fa-instagram fa-2x"></i></a>&nbsp;
+                <a href="https://www.facebook.com/" class="footerfab"><i class="fab fa-facebook fa-2x"></i></a>
+            </p>
+        </div>
+    </footer>
+    <script>
+        AOS.init({
+            duration: 1500
+        });
+    </script>
+</body>
+
+</html>
