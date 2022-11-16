@@ -7,6 +7,40 @@
     color: #fff !important;
 }
 
+#headingOne .btn h4:hover {
+    background-color: rgb(225, 225, 136);
+    color: #fff !important;
+}
+
+#headingOne .btn h4 {
+    background-color: lightyellow;
+    color: rgb(150, 132, 132) !important;
+    font-size: 1.5em;
+    padding: 1em 0.7em;
+    transition: all 0.5s;
+}
+
+
+#headingTwo .btn h4:hover {
+    background-color: rgb(188, 219, 239);
+    color: #fff !important;
+}
+
+#headingTwo .btn h4 {
+    background-color: rgb(224, 243, 255);
+    color: rgb(150, 132, 132) !important;
+    font-size: 1.5em;
+    padding: 1em 0.7em;
+    transition: all 0.5s;
+}
+
+.goTopBtn{
+    color: #edd5c3bd;
+}
+.goTopBtn:hover{
+    color: #ddb295bd;
+}
+
 .container{
     width: 1600px;
 }

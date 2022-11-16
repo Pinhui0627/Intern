@@ -7,6 +7,13 @@
     color: #fff !important;
 }
 
+.goTopBtn{
+    color: #edd5c3bd;
+}
+.goTopBtn:hover{
+    color: #ddb295bd;
+}
+
 .ContentSlide {
     animation: slide-up 2s;
 }
@@ -15,6 +22,9 @@ h4{
     color: #c6997d;
 }
 
+.sideTitle{
+    padding-bottom: 1em;
+}
 
 @keyframes slide-up {
     0% {

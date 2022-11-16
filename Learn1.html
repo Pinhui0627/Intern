@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,13 +25,20 @@
 		integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous">
 	</script>
 	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script src="include.js"></script>
 </head>
 <style>
 </style>
 
 <body>
+	<div id="gotop">
+		<a href="#" class="goTopBtn jq-goTop" style="color: none;">
+			<i class="fas fa-arrow-alt-circle-up fa-3x"></i>
+		</a>
+	</div>
 	<nav class="navbar navbar-expand-lg navbar-light navbar-fixed-top">
-		<a class="navbar-brand" href="https://little-wei.github.io/index.html"><img src="images\logo.png" width="250" height="80" id="back"></a>
+		<a class="navbar-brand" href="https://little-wei.github.io/index.html"><img src="images\logo.png" width="250"
+				height="80" id="back"></a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
 			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon"></span>
@@ -42,12 +50,7 @@
 					<a class="nav-link" href="index.html">Home<span class="sr-only"></span></a>
 				</li>
 				<li class="nav-item dropdown mr-sm-2">
-					<a href="Work.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
-						aria-expanded="false">工作內容</a>
-						<div class="dropdown-menu">
-							<a class="nav-link dropdown-item Work" href="Work1.html">捐款系統</a>
-							<a class="nav-link dropdown-item Work" href="Work2.html">個案系統</a>
-						</div>
+					<a class="nav-link"href="Work.html" >工作內容</a>
 				</li>
 				<li class="nav-item dropdown mr-sm-2">
 					<a href="Learn.html" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button"
@@ -86,14 +89,14 @@
 						<h3><b>WebForm</b></h3>
 						<p>在剛進公司時，帶我的小主管(資管畢業的學姊)有讓我先看一些基本程式及資料庫相關的影片，結束後就開始會出作業給我，讓我能夠先熟悉公司產品的各項功能，並在每項作業做完後進行CodeReview，確認所做出來的東西是沒有問題的。
 						</p>
-						<p>在學校所學習的架構是ASP.NET MVC，公司是使用ASP.NET Web
-							Form，也因為架構有點不太相同，所以需要一段時間習慣，像是MVC主要會分成三個部分Model、View、Controller，Web
-							Form主要是分成前端跟後端的部分，剛開始不熟悉時會想很多，原本以為會很複雜，但慢慢熟悉之後，發現其實比MVC簡單很多，而且基本的語法都是一樣的，所以很快地就能夠漸入佳境。</p>
+						<p>第一個作業最主要是要做出查詢畫面及編輯畫面，還有Excel匯出的功能。查詢的部分是比較簡單的，但因為是公司的產品，所以很多的function都是共用的，架構相比自己做的小專題來說是非常完整的，也因此許多地方都需要腦袋多想一下，並不是像在學校那種直覺性的寫法，也讓我學到要如何將function進行有效的分類，方便各頁面使用。(圖8、圖9)Excel匯出的部分是沒有接觸過的，也是第一次知道直接將資料匯出成Excel是使用這樣的方式，從一開始的建立Table、連線、畫表格、Insert
+							資料，到最後下載檔案，過程中原本以為很順利，但最後的匯出部分因為還需要先載另一個關於下載資料的程式，所以花了不少時間，先上網查過後才發現就是缺少了那個程式所以會運作失敗，雖然說似乎是主管剛開始忘記先跟我說有這個東西，不過這也算是學到了一課，這樣以後如果我或是身旁的朋友再遇到這樣的問題時，我也能夠直接地跟他們說該如何解決。
+						</p>
 					</div>
 					<div class="col-sm-6" data-aos="fade-left">
 						<div class="box bg-cover">
 							<div id="carouselControls" class="carousel slide" data-ride="carousel">
-								<div class="carousel-inner">
+								<div class="carousel-inner" onclick="imgbig();">
 									<div class="carousel-item active">
 										<img src="images\IntroductionC.png" class="d-block w-100" alt="...">
 									</div>
@@ -128,7 +131,7 @@
 						</p>
 					</div>
 					<div class="col-sm-6" data-aos="fade-right">
-						<div class="box boxB bg-cover"></div>
+						<div class="box boxB bg-cover" onclick="imgbig();"></div>
 					</div>
 				</div>
 				<div class="row my-3 timeLine-pointer">
@@ -140,10 +143,11 @@
 						</p>
 					</div>
 					<div class="col-sm-6" data-aos="fade-left">
-						<div class="box boxC bg-cover"></div>
+						<div class="box boxC bg-cover" onclick="imgbig();"></div>
 					</div>
 				</div>
 
+				<div id="bigimg" onclick="closeimg();"></div>
 			</div>
 		</div>
 	</article>
@@ -164,6 +168,16 @@
 		AOS.init({
 			duration: 1500
 		});
+
+		function imgbig() {
+			var imgsrc = $(this.children()).attr('src');
+			$("#bigimg").css("display", "block");
+			$("#bigimg").html("<img src=" + imgsrc + " />");
+		}
+
+		function closeimg() {
+			$("#bigimg").css("display", "none");
+		}
 	</script>
 </body>
 

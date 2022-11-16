@@ -8,6 +8,13 @@
 }
 
 
+.goTopBtn{
+    color: #edd5c3bd;
+}
+.goTopBtn:hover{
+    color: #ddb295bd;
+}
+
 .pagerow {
     font-family: 'Noto Serif TC', serif;
     color: #69615b;

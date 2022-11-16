@@ -38,6 +38,17 @@ html {
   font-family: 'Noto Serif TC', serif;
 }
 
+.goTopBtn{
+  position: fixed;
+  border-radius: 50px;
+  right: 20px;
+  bottom: 30px;
+  padding: 10px 16px;
+  font-size: 25px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
 /* navbar */
 #logo {
   padding: 10px;
