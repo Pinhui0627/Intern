@@ -22,11 +22,16 @@
     color:rgb(195, 182, 182)
 }
 
-h3{
-    padding-bottom: 1em;
+.itemTitle{
+    font-family: 'Noto Serif TC', serif;
+    font-size: 2em;
+    padding-bottom: 0.5em;
+    color: 	#834011;
+    font-weight: bolder ;
 }
 
 #footer {
     background: hsl(46, 89%, 93%);
     padding: 0.5cm
 }
+

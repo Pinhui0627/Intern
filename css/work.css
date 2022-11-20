@@ -7,31 +7,79 @@
     color: #fff !important;
 }
 
-#headingOne .btn h4:hover {
-    background-color: rgb(225, 225, 136);
+.carouselspan{
+    font-size: 3em;
+    font-family: 'Noto Serif TC', serif;
+    color: #E5EFE3;
+}
+
+.carousellink{
+    color: #fff;
+}
+
+.carousellink:hover{
+    color: rgb(177, 165, 141);
+}
+
+#headingOne{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+#headingTwo{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+#headingOne .btntype{
+    width: 150px;
+	height: 150px;
+    background-color: #F5EBC9;
+    color: rgb(150, 132, 132) !important;
+    font-size: 2rem;
+    font-weight: 900;
+    transition: all 0.5s;
+	border-radius: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+#headingOne .btntype:hover {
+    background-color: rgb(240, 215, 133);
     color: #fff !important;
 }
 
-#headingOne .btn h4 {
-    background-color: lightyellow;
+
+#headingTwo .btntype{
+    width: 150px;
+	height: 150px;
+    background-color: #c2d3e0;
     color: rgb(150, 132, 132) !important;
-    font-size: 1.5em;
-    padding: 1em 0.7em;
+    font-size: 2rem;
+    font-weight:900;
     transition: all 0.5s;
+	border-radius: 50%;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
 
-
-#headingTwo .btn h4:hover {
-    background-color: rgb(188, 219, 239);
+#headingTwo .btntype:hover {
+    background-color: #99c3e3;
     color: #fff !important;
 }
 
-#headingTwo .btn h4 {
-    background-color: rgb(224, 243, 255);
-    color: rgb(150, 132, 132) !important;
-    font-size: 1.5em;
-    padding: 1em 0.7em;
-    transition: all 0.5s;
+.card-body{
+    padding: 1.5rem;
+}
+
+#card-body1{
+    background-color: #fbf5e3;
+}
+#card-body2{
+    background-color: #dfe8ef;
 }
 
 .goTopBtn{
@@ -50,7 +98,9 @@
 }
 
 h3{
+    padding-left: 1em;
     padding-bottom: 1em;
+    color:rgb(130, 109, 109)
 }
 
 
