@@ -1,3 +1,4 @@
+
 .navbar {
     background-color: #FDF6DE;
 }
@@ -57,6 +58,12 @@
 }
 .boxG{
     height: 190px;
+}
+.boxcom{
+    height: 360px;
+}
+.boxtime{
+    height: 360px;
 }
 
 .h5white{
