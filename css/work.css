@@ -6,6 +6,9 @@
     background-color: #bcdab6;
     color: #fff !important;
 }
+.carousel-control:after{
+    background-color: rgb(100, 89, 68);
+}
 
 .carouselspan{
     font-size: 3em;
@@ -14,11 +17,15 @@
 }
 
 .carousellink{
-    color: #fff;
+    color: rgb(177, 165, 141);
 }
 
 .carousellink:hover{
-    color: rgb(177, 165, 141);
+    color: rgb(100, 89, 68);
+}
+
+.carouselimg{
+    opacity: 0.5;
 }
 
 #headingOne{
@@ -72,7 +79,7 @@
 }
 
 .card-body{
-    padding: 1.5rem;
+    padding: 2rem;
 }
 
 #card-body1{
@@ -80,6 +87,16 @@
 }
 #card-body2{
     background-color: #dfe8ef;
+}
+
+.h5white{
+    color: #fff; 
+    text-shadow: rgb(0, 0, 0) 0.1em 0.1em 0.2em;
+    font-weight: bold;
+}
+
+#carouselControlsB h5{
+    color:#fff;
 }
 
 .goTopBtn{
