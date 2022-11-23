@@ -22,7 +22,21 @@
 .fab{
     color:rgb(195, 182, 182)
 }
+html {
+    /* remove right whitespace */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
+body {
+    /* remove right whitespace */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 .carousel-inner{
     justify-content: center; 
     background-color: #a3b18a;
